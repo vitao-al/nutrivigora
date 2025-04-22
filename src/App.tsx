@@ -218,7 +218,7 @@ function App() {
             {/* Logo and Search */}
             <div className="flex items-center flex-1 md:space-x-8">
               <img 
-                src="../assets/logoNV.png" 
+                src="/logonv.png" 
                 alt="Nutri Vigorá" 
                 className="h-8"
               />
