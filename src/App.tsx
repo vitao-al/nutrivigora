@@ -86,18 +86,6 @@ function App() {
     ]
   },
   {
-    id: 4,
-    name: "Whey Protein Dose (30g)",
-    price: 5.90,
-    installments: "1x de R$ 5,90",
-    image: "https://i.imgur.com/YqUz0pR.png",
-    features: [
-      "PRÁTICO PARA CONSUMO",
-      "AJUDA A FORNECER ENERGIA",
-      "ALTA ABSORÇÃO PELO ORGANISMO"
-    ]
-  },
-  {
     id: 5,
     name: "Creatina Pura 300g - Dark Lab",
     price: 49.90,
@@ -214,7 +202,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#f4f5e7]">
       {/* Header */}
       <header className="bg-[#f4f5e7] text-black py-4 sticky top-0 z-50">
         <div className="container mx-auto px-4">
@@ -253,9 +241,9 @@ function App() {
               <button className="flex items-center hover:text-gray-200">
                 <Phone className="h-6 w-6" />
                 <div className="ml-2 text-left">
-                  <a href="https://www.instagram.com/nutri_vigora?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="></a>
                   <span className="block text-sm">Fale Conosco</span>
                   <span className="block text-sm font-semibold">Clique aqui</span>
+                  <a href="https://www.instagram.com/nutri_vigora?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="></a>
                 </div>
               </button>
               <button 
@@ -273,7 +261,7 @@ function App() {
             </div>
 
             {/* Mobile Icons */}
-            <div className="flex md:hidden items-center space-x-4">
+            <div className="flex md:hidden items-center space-x-4 bg-[#f4f5e7]">
               <Search className="h-6 w-6" />
               <button className="relative" onClick={() => setIsCartOpen(true)}>
                 <ShoppingCart className="h-6 w-6" />
@@ -287,7 +275,7 @@ function App() {
           </div>
 
           {/* Navigation */}
-          <nav className={`${mobileMenuOpen ? 'block' : 'hidden'} md:block mt-4`}>
+          <nav className={`${mobileMenuOpen ? 'block' : 'hidden'} md:block mt-4 bg-[#f4f5e7]`}>
             <ul className="flex flex-col md:flex-row md:space-x-8 space-y-2 md:space-y-0">
               <li className="flex items-center cursor-pointer hover:text-gray-200">
                 <Menu className="h-5 w-5 mr-2" />
@@ -436,7 +424,7 @@ Vale lembrar que a prescrição deve ser feita pelo nutricionista, pois é o pro
       </section>
 
       {/* Footer */}
-      <footer className="bg-white border-t mt-16">
+      <footer className="bg-[#f4f5e7] border-t mt-16">
         <div className="container mx-auto px-4 py-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* About Section */}
@@ -481,7 +469,7 @@ Vale lembrar que a prescrição deve ser feita pelo nutricionista, pois é o pro
             <div>
               <h3 className="font-bold text-lg mb-4">Rede Social</h3>
               <div className="flex space-x-4">
-                <a href="#" className="text-[#00A7E1] hover:text-[#1B4B68]">
+                <a href="https://www.instagram.com/nutri_vigora?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="text-[#00A7E1] hover:text-[#1B4B68]">
                   <Instagram className="h-6 w-6" />
                 </a>
               </div>
