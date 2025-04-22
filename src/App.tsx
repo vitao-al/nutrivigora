@@ -343,10 +343,10 @@ function App() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <h3 className="text-xl font-semibold text-orange-600 mb-2">Ganhar Músculos</h3>
-                  <p className="text-gray-200">O processo de ganho de massa muscular se dá pela combinação de uma boa alimentação e de uma rotina de exercícios 
+                  <h6 className="text-gray-200 text-sm">O processo de ganho de massa muscular se dá pela combinação de uma boa alimentação e de uma rotina de exercícios 
                     físicos intensos. Além disso, fazer musculação é muito importante para alcançar a hipertrofia, sendo indicada a realização de exercícios de 
                     grupos musculares alternados, já que o processo de desenvolvimento dos músculos ocorre durante a recuperação¹.
-                     Porém, é importante se consultar previamente com profissionais que podem guiar você da melhor maneira possível.</p>
+                     Porém, é importante se consultar previamente com profissionais que podem guiar você da melhor maneira possível.</h6>
                 </div>
               </div>
             </div>
@@ -360,7 +360,7 @@ function App() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <h3 className="text-xl font-semibold text-orange-600 mb-2">Emagrecimento</h3>
-                  <p className="text-white">
+                  <p className="text-white text-sm">
                   Emagrecer não é uma tarefa impossível. Com uma rotina disciplinada de exercícios e a dieta certa, você consegue garantir a perda de gorduras localizadas sem grandes complicações.
 
 Os melhores suplementos para isso, você encontra aqui, na Growth Supplements. São diferentes produtos para se encaixar na sua rotina e garantir estratégias para queimar de vez aquela gordura localizada, além de garantir o aumento da disposição durante os treinos.
@@ -379,7 +379,7 @@ Os melhores suplementos para isso, você encontra aqui, na Growth Supplements. S
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <h3 className="text-xl font-semibold text-orange-600 mb-2">Energia</h3>
-                  <p className="text-gray-200">Muitas vezes, somente a alimentação não é suficiente para termos a energia necessária para encarar um treino pesado - e é aí que entram os suplementos. Esses produtos facilitam o dia a dia de quem quer aumentar o desempenho e alcançar o corpo tão desejado.
+                  <p className="text-gray-200 text-sm">Muitas vezes, somente a alimentação não é suficiente para termos a energia necessária para encarar um treino pesado - e é aí que entram os suplementos. Esses produtos facilitam o dia a dia de quem quer aumentar o desempenho e alcançar o corpo tão desejado.
 
 Vale lembrar que a prescrição deve ser feita pelo nutricionista, pois é o profissional capacitado para identificar as necessidades do organismo e suplementar de forma adequada.</p>
                 </div>
