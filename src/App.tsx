@@ -316,7 +316,7 @@ function App() {
             <div key={index} className="flex items-center justify-center">
               <div className="text-center">
                 <div className="bg-[#00A7E1] rounded-full p-4 inline-block mb-2">
-                  <img src={benefit.icon} alt={benefit.title} className="h-8 w-8" />
+                  <img src={benefit.icon} alt={benefit.title} className="h-5 w-5" />
                 </div>
                 <p className="text-sm">{benefit.title}</p>
                 <a href="#" className="text-xs text-[#00A7E1] hover:underline">{benefit.link}</a>
@@ -330,7 +330,7 @@ function App() {
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center text-white mb-4">Saiba seu OBJETIVO</h2>
           <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-            Conheça alguns dos nossos projetos mais recentes e deixe-se inspirar para sua próxima construção.
+            Monte o seu projeto e inspire-se para alcançar seus resultados com mais motivação e foco.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8">
