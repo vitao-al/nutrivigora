@@ -253,6 +253,7 @@ function App() {
               <button className="flex items-center hover:text-gray-200">
                 <Phone className="h-6 w-6" />
                 <div className="ml-2 text-left">
+                  <a href="https://www.instagram.com/nutri_vigora?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="></a>
                   <span className="block text-sm">Fale Conosco</span>
                   <span className="block text-sm font-semibold">Clique aqui</span>
                 </div>
