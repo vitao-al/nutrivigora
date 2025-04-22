@@ -65,7 +65,7 @@ function App() {
     name: "Gomas Creatinadas PowerGummy",
     price: 109.90,
     installments: "6x de R$ 20,35",
-    image: "https://i.imgur.com/D8kzQ9B.png",
+    image: "https://www.instagram.com/p/DIhGPVYJHnO/",
     features: [
       "ESTIMULA A HIPERTROFIA",
       "AUXILIA NA RECUPERAÇÃO MUSCULAR",
