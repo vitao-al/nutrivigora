@@ -460,7 +460,7 @@ Vale lembrar que a prescrição deve ser feita pelo nutricionista, pois é o pro
               <h3 className="font-bold text-lg mb-4">Contato</h3>
               <div className="space-y-2 text-gray-600">
                 <p>E-mail: sac@nutrivigora.com.br</p>
-                <p>Telefone: (11) 3003-3994</p>
+                <p>Telefone: (82) 1234-5678</p>
                 <p>Seg a Sex das 8h às 12h | das 13h30 às 18h</p>
               </div>
             </div>
