@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply hover:text-gray-200 transition-colors;
+  }
+}
+
+.product-card {
+  @apply bg-white rounded-lg shadow-md overflow-hidden transition-shadow hover:shadow-lg;
+}
