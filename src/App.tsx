@@ -218,7 +218,7 @@ function App() {
             {/* Logo and Search */}
             <div className="flex items-center flex-1 md:space-x-8">
               <img 
-                src="/logonv.png"  
+                src="/nvlogo.png"  
                 className="h-8"
               />
               <div className="hidden md:block flex-1 max-w-xl">
